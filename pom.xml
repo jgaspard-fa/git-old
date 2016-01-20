@@ -46,4 +46,10 @@
         </plugins>
     </build>
 
+    <scm>
+        <connection>scm:git:ssh://git@github.com:jgaspard-fa/git-old.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:jgaspard-fa/git-old.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
 </project>
