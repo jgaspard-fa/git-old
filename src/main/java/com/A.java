@@ -1,7 +1,7 @@
 package com;
 
 /**
- * A change on master committed locally
+ * change on master pushed
  */
 public class A {
 }
