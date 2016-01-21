@@ -10,7 +10,7 @@
 
     <groupId>com.fa.gitflow-example</groupId>
     <artifactId>git-old</artifactId>
-    <version>0.4.0</version>
+    <version>0.5.0</version>
     <packaging>pom</packaging>
 
     <build>
@@ -23,6 +23,24 @@
                     <localCheckout>true</localCheckout>
                     <remoteTagging>true</remoteTagging>
                     <pushChanges>true</pushChanges>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>1.0-m5.1</version>
+                <configuration>
+                    <flowInitContext>
+                        <masterBranchName>master</masterBranchName>
+                        <developBranchName>develop</developBranchName>
+                        <featureBranchPrefix>feature-</featureBranchPrefix>
+                        <releaseBranchPrefix>release-</releaseBranchPrefix>
+                        <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
+                        <versionTagPrefix>git-old-</versionTagPrefix>
+                    </flowInitContext>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <pushReleases>true</pushReleases>
+                    <pushHotfixes>true</pushHotfixes>
                 </configuration>
             </plugin>
         </plugins>
