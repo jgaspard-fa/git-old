@@ -52,4 +52,18 @@
         <tag>HEAD</tag>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>apacheRelease</id>
+            <name>apacheRelease</name>
+            <url>dav:http://thalia.financeactiveoffice:8080/fa_release</url>
+        </repository>
+        <snapshotRepository>
+            <uniqueVersion>true</uniqueVersion>
+            <id>apacheSnapshot</id>
+            <name>apacheSnapshot</name>
+            <url>dav:http://thalia.financeactiveoffice:8080/fa_snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
