@@ -25,6 +25,24 @@
                     <pushChanges>true</pushChanges>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>1.0-m5.1</version>
+                <configuration>
+                    <flowInitContext>
+                        <masterBranchName>master</masterBranchName>
+                        <developBranchName>develop</developBranchName>
+                        <featureBranchPrefix>feature.ex-</featureBranchPrefix>
+                        <releaseBranchPrefix>release.ex-</releaseBranchPrefix>
+                        <hotfixBranchPrefix>hotfix.ex-</hotfixBranchPrefix>
+                        <versionTagPrefix>tag.ex-</versionTagPrefix>
+                    </flowInitContext>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <pushReleases>true</pushReleases>
+                    <pushHotfixes>true</pushHotfixes>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
