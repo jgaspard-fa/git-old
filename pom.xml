@@ -36,7 +36,7 @@
                         <featureBranchPrefix>feature.ex-</featureBranchPrefix>
                         <releaseBranchPrefix>release.ex-</releaseBranchPrefix>
                         <hotfixBranchPrefix>hotfix.ex-</hotfixBranchPrefix>
-                        <versionTagPrefix>tag.ex-</versionTagPrefix>
+                        <versionTagPrefix>git-old-</versionTagPrefix>
                     </flowInitContext>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <pushReleases>true</pushReleases>
