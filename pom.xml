@@ -33,9 +33,9 @@
                     <flowInitContext>
                         <masterBranchName>master</masterBranchName>
                         <developBranchName>develop</developBranchName>
-                        <featureBranchPrefix>feature.ex-</featureBranchPrefix>
-                        <releaseBranchPrefix>release.ex-</releaseBranchPrefix>
-                        <hotfixBranchPrefix>hotfix.ex-</hotfixBranchPrefix>
+                        <featureBranchPrefix>feature-</featureBranchPrefix>
+                        <releaseBranchPrefix>release-</releaseBranchPrefix>
+                        <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                         <versionTagPrefix>git-old-</versionTagPrefix>
                     </flowInitContext>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
