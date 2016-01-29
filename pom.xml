@@ -10,7 +10,7 @@
 
     <groupId>com.fa.gitflow-example</groupId>
     <artifactId>git-old</artifactId>
-    <version>0.13.0</version>
+    <version>0.14.0</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -40,7 +40,8 @@
                         <featureBranchPrefix>feature-</featureBranchPrefix>
                         <releaseBranchPrefix>release-</releaseBranchPrefix>
                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-                        <versionTagPrefix>${gitflowVersionTagPrefix}</versionTagPrefix>
+                        <!--<versionTagPrefix>${gitflowVersionTagPrefix}</versionTagPrefix>-->
+                        <versionTagPrefix>dependency-git-old-</versionTagPrefix>
                     </flowInitContext>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <pushReleases>true</pushReleases>
