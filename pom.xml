@@ -41,7 +41,8 @@
                         <releaseBranchPrefix>release-</releaseBranchPrefix>
                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                         <!--<versionTagPrefix>${gitflowVersionTagPrefix}</versionTagPrefix>-->
-                        <versionTagPrefix>dependency-git-old-</versionTagPrefix>
+                        <!--<versionTagPrefix>dependency-git-old-</versionTagPrefix>-->
+                        <versionTagPrefix>${project.artifactId}-</versionTagPrefix>
                     </flowInitContext>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <pushReleases>true</pushReleases>
