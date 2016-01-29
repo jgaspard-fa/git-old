@@ -13,6 +13,10 @@
     <version>0.13.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <properties>
+        <gitflowVersionTagPrefix>git-old-</gitflowVersionTagPrefix>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -36,7 +40,7 @@
                         <featureBranchPrefix>feature-</featureBranchPrefix>
                         <releaseBranchPrefix>release-</releaseBranchPrefix>
                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-                        <versionTagPrefix>git-old-</versionTagPrefix>
+                        <versionTagPrefix>${gitflowVersionTagPrefix}</versionTagPrefix>
                     </flowInitContext>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <pushReleases>true</pushReleases>
