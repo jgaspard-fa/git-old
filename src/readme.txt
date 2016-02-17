@@ -3,3 +3,4 @@ release-0.6.0
 dev 0.8
 rel 0.9
 rel 0.11
+hotf 0.16.1
